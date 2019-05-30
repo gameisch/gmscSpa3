@@ -3,7 +3,9 @@
       //- navbar
       .navbar.navbar-expand-lg.fixed-top.navbar-dark.bg-primary
         .container
-          router-link.navbar-brand(to="/") Home
+          router-link.navbar-brand(to="/") 
+            font-awesome-icon(icon="coffee") 
+            | Home
           button.navbar-toggler(type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation")
             span.navbar-toggler-icon
           .collapse.navbar-collapse#navbarResponsive
@@ -55,9 +57,11 @@ export default {
   @keyframes moveInUp{
     0%{
       transform: translateY(0);
+      opacity: 1;
     }
       100%{
-      transform: translateY(-400px);
+      transform: translateY(60px);
+      opacity: 0;
     }
   }
 </style>
