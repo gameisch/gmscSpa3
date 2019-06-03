@@ -1,8 +1,10 @@
 <template lang="pug">
   #app
       //- navbar
-      .navbar.navbar-expand-lg.fixed-top.navbar-dark.bg-primary
+      header.navbar.navbar-expand-lg.fixed-top
         .container
+          router-link.logo(to="/")
+            img(src="./assets/images/logo.svg" class="img-fluid" alt="gameisch co logo" title="gameisch co logo")
           router-link.navbar-brand(to="/") 
             font-awesome-icon(icon="coffee") 
             | Home
@@ -15,7 +17,9 @@
               li.nav-item
                 router-link.nav-link(to="/services") Services
               li.nav-item
-                router-link.nav-link(to="/contact") contact
+                router-link.nav-link(to="/cases") Cases
+              li.nav-item
+                router-link.nav-link(to="/contact") Contact
       .container
         transition(name="moveInUp")
           router-view
@@ -28,40 +32,5 @@ export default {
 </script>
 
 <style lang="scss">
-  #app {
-    font-family: 'Avenir', Helvetica, Arial, sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    text-align: center;
-    color: #2c3e50;
-    margin-top: 60px;
-  }
-  .moveInUp-enter-active{
-    animation: fadeIn 2s ease-in;
-  }
-  @keyframes fadeIn{
-    0%{
-      opacity: 0;
-    }
-    50%{
-      opacity: 0.5;
-    }
-    100%{
-      opacity: 1;
-    }
-  }
-
-  .moveInUp-leave-active{
-    animation: moveInUp .3s ease-in;
-  }
-  @keyframes moveInUp{
-    0%{
-      transform: translateY(0);
-      opacity: 1;
-    }
-      100%{
-      transform: translateY(60px);
-      opacity: 0;
-    }
-  }
+  @import "./assets/styles/_app.scss";
 </style>

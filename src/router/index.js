@@ -3,10 +3,12 @@ import Router from 'vue-router'
 import home from '@/components/home'
 import blog from '@/components/blog'
 import services from '@/components/services'
+import cases from '@/components/cases'
 import contact from '@/components/contact'
 import details from '@/components/details'
+import libs from '@/assets/js/libs'
 
-Vue.use(Router)
+Vue.use(Router, libs)
 
 export default new Router({
   routes: [
@@ -34,6 +36,11 @@ export default new Router({
       path: '/contact',
       name: 'contact',
       component: contact
+    },
+    {
+      path: '/cases',
+      name: 'Cases',
+      component: cases
     },
     {
       path: '/details/:Pid',
