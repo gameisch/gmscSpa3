@@ -1,7 +1,5 @@
 <template lang="pug">
-    .cursor
-        .cursor__inner.cursor__inner--circle
-        .cursor__inner.cursor__inner--dot
+    #cases(v-if="cases")
 </template>
 <script>
 	document.documentElement.className = "js";

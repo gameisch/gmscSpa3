@@ -1,5 +1,9 @@
 <template lang="pug">
-  #app
+  
+  .content#app
+      .cursor
+        .cursor__inner.cursor__inner--circle
+        .cursor__inner.cursor__inner--dot
       //- navbar
       header.navbar.navbar-expand-lg.fixed-top
         .container

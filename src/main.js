@@ -10,10 +10,10 @@ import { Showcase } from "./assets/js/showcase";
 import { Slides } from "./assets/js/slides";
 import { Cursor } from "./assets/js/cursor";
 import image1 from "./assets/images/36sq_img.png";
-import image2 from "./assets/images/36sq_img.png";
-import image3 from "./assets/images/36sq_img.png";
-import image4 from "./assets/images/36sq_img.png";
-import image5 from "./assets/images/36sq_img.png";
+import image2 from "./assets/images/amp_img.png";
+import image3 from "./assets/images/comrade_img.png";
+import image4 from "./assets/images/loh_img.png";
+import image5 from "./assets/images/utc_img.png";
 
 library.add(faCoffee)
 

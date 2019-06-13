@@ -26,7 +26,7 @@ body {
     -moz-osx-font-smoothing: grayscale;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
-    
+    cursor: none!important;
 }
 @include scrollbars(.5em, $rubyred);
 html,
@@ -65,7 +65,7 @@ header h1 {
     -moz-osx-font-smoothing: grayscale;
     text-align: center;
     color: $dark-grey;
-    margin-top: 60px;
+    padding-top: 60px;
     width: 100vw;
     height: 100vh;
     overflow-x: hidden;
@@ -104,11 +104,13 @@ header h1 {
 }
   
 a:focus {
-    outline: thin dotted
+    outline: thin dotted;
+    cursor: none;
 }
   
 a:active, a:hover {
-    outline: 0
+    outline: 0;
+    cursor:none;
 }
   
 h1 {
