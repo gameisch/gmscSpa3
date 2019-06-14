@@ -11,6 +11,7 @@
   // https://codepen.io/shshaw/pen/pLgWLa
   // https://codepen.io/erawk26/pen/byRZMZ
   // https://codepen.io/slc/pen/XeVJeq
+  // https://ru.vuejs.org/v2/guide/components-registration.html
 
 	// document.documentElement.className = "js";
   // let supportsCssVars = function () {
