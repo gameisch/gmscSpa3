@@ -6,7 +6,7 @@
 				.error-message
 					p(v-show="!email.valid") Oh, please enter a valid email address.
 				fieldset
-					legend Vue Contact Form
+					legend {{name}}
 					div
 						label(class="label" for="name") Name
 						input(type="text" name="name" id="name" required="" v-model="name")
@@ -53,7 +53,7 @@
 
 <script>
 	export default{
-		name:'blog',
+		name:'contacts',
 		data: function() {
 			return {
 				title:'contact',

@@ -1,16 +1,7 @@
-import {
-    GLManager
-  } from "./gllib";
-  import {
-    spring,
-    parallel
-  } from "popmotion";
-  import {
-    Grab
-  } from "./grab";
-  import {
-    reach
-  } from "./reach";
+import { GLManager } from "./gllib";
+import { spring, parallel} from "popmotion";
+import { Grab } from "./grab";
+import { reach } from "./reach";
   
   // onFullscreenStart
   // onFullscreenFinish
