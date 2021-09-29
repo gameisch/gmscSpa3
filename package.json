@@ -13,7 +13,7 @@
     "@fortawesome/fontawesome-svg-core": "^1.2.18",
     "@fortawesome/free-solid-svg-icons": "^5.8.2",
     "@fortawesome/vue-fontawesome": "^0.1.6",
-    "i": "^0.3.6",
+    "i": "^0.3.7",
     "npm": "^6.9.0",
     "popmotion": "^8.6.4",
     "stats.js": "^0.17.0",
